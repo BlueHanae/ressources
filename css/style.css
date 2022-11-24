@@ -1,0 +1,164 @@
+/* color wheel
+#95A0F5 */
+/* font style */
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+h1{
+    font-size: 6rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    letter-spacing: 5rem;
+}
+h2{
+    font-size: 3rem;
+    margin-left: 3rem;
+    text-align: left;
+    padding: 2rem 0;
+}
+li{
+    text-align: left;
+    padding: 1rem 0;
+    margin-left: 10rem;
+}
+/* Main-header */
+.main-header__title{
+    text-align: center;
+    margin-left: 2rem;
+}
+.main-header{
+    /*border-radius: 0 0 30px 30px;*/
+    color: #767FC2;
+    width: 100%;
+    height: 20rem;
+    background: #95A0F5;
+}
+/*HTML*/
+.html{
+    /* text-shadow: 1px 1px 5px #cc964f; */
+    text-align: right;
+    width: 100%;
+    color: #f09f36;
+    background: #F5D6AE;
+    padding-bottom: 5rem;
+}
+.html a{
+    padding: 0.3rem;
+    border: 1px solid #f09f36;
+    color: #f09f36;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.html a:hover{
+    background: #f09f36;
+    color: #F5D6AE;
+}
+/*CSS*/
+.css{
+    text-align: right;
+    width: 100%;
+    color: #52753C;
+    background: #D8F5C6;
+    padding-bottom: 5rem;
+   
+}
+.css a{
+    padding: 0.3rem;
+    border: 1px solid #52753C;
+    color: #52753C;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.css a:hover{
+    background: #52753C;
+    color: #D8F5C6;
+}
+/*PHP*/
+.php{
+    text-align: right;
+    width: 100%;
+    color: #bd696d;
+    background: #F5AEB1;
+    padding-bottom: 5rem;
+}
+.php a{
+    padding: 0.3rem;
+    border: 1px solid #bd696d;
+    color: #bd696d;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.php a:hover{
+    background: #bd696d;
+    color: #F5AEB1;
+}
+/*Autres*/
+.autre{
+    text-align: right;
+    width: 100%;
+    color: #25554b;
+    background: #76C2B4;
+    padding-bottom: 5rem;
+}
+.autre a{
+    padding: 0.3rem;
+    border: 1px solid #25554b;
+    color: #25554b;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.autre a:hover{
+    background: #25554b;
+    color: #76C2B4;
+}
+
+
+@media (max-width: 767px)  /*Smartphones*/
+{
+    body{
+        width :100%;
+    }
+    .main-header{
+        height: 6rem;
+    }
+    h1, h2{
+        font-size: 1.8rem;
+        font-weight: bold;
+        padding-top: 2rem;
+        letter-spacing: 0.1rem;
+        text-align: center;
+        margin: 0;
+        padding: 1.5rem 0;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    .css, .php, .autre, .html{
+        padding-bottom: 1.5rem;
+    }
+}   
+@media (min-width: 768px) and (max-width: 1388px)/*Tablettes*/ 
+{
+    body{
+        width :100%;
+    }
+    .main-header{
+        height: 6rem;
+    }
+    h1, h2{
+        padding: 1.5rem 0;
+        font-weight: bold;
+        font-size: 2rem;
+        padding-top: 2rem;
+        letter-spacing: 0.1rem;
+        text-align: center;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    .css, .php, .autre, .html{
+        padding-bottom: 1.5rem;
+    }
+}
