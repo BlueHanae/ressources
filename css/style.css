@@ -4,17 +4,19 @@ body{
     width: 100%;
     background: #f5d6ae;
     color: #f09f36;
+    transition: .7s;
 }
 /* coded mobile first, max 600px */
 #icon-theme{
-    padding: .2rem;
-    border: 1px solid black;
-    border-radius: .5rem;
     position: absolute;
     right: 1rem;
-    top: 1.25rem;
-    width: 2rem;
+    top: .5rem;
+    padding: .5rem;
+    border: 1.5px solid black;
+    border-radius: 50%;
+    width: 3rem;
     filter: invert(53%) sepia(12%) saturate(1619%) hue-rotate(195deg) brightness(94%) contrast(83%);
+    cursor: pointer;
 }
 h1 {
     text-align: center;
@@ -44,7 +46,7 @@ li {
     margin: 1rem;
 }
 p {
-    padding-top: .5rem;
+    padding-top: 1rem;
 }
 
 .anchor {
@@ -135,7 +137,7 @@ h2{
 p{
     padding-left: 3rem;
 }
-.html__header, .css__header, .php__header, .autre__header{
+.html__header, .css__header, .php__header, .autre__header, .js__header{
     letter-spacing: 1.5rem;
 }
 } 
@@ -154,8 +156,17 @@ h2{
     font-size: 3rem;
 }
 }
+@media (min-width: 1400px) /*Je te vois avec ton grand écran*/
+{
+li{
+    padding-left: 9rem;
+}
+}
 /* dark-theme */
-.dark{
+body.dark{
+    background: #1b1b1b;
+}
+body.dark .main-header{
     background: #1b1b1b;
 }
 .dark a:hover{
