@@ -5,15 +5,18 @@ body{
     background: #f5d6ae;
     color: #f09f36;
 }
-h1{
+/* coded mobile first, max 600px */
+h1 {
+    text-align: center;
     padding: 0 2rem;
     font-size: 4rem;
 }
-h2{
+h2 {
+    font-size: 2rem;
     text-align: center;
     color: #ebad5d;
 }
-a{
+a {
     text-align: center;
     color: #ebad5d;
     text-decoration: none;
@@ -22,26 +25,25 @@ a{
     padding: .1rem;
     margin: 1rem;
 }
-a:hover{
+a:hover {
     color: #f5d6ae;
     background: #ebad5d;
     border: 1px solid #f5d6ae;
 }
-li{
+li {
     text-align: center;
     margin: 1rem;
 }
-p{
+p {
     padding-top: .5rem;
 }
-.anchor{
+
+.anchor {
     border: none;
 }
-section{
+section {
     border-top: 2px solid #ebad5d;
 }
-@media (max-width: 600px)  /*Petit Smartphone*/
-{
 /* Main */
 main{
     display: block;
@@ -84,9 +86,6 @@ main{
     display: flex;
     flex-direction: column;
 }
-.html__header{
-    align-self: end;
-}
 /*CSS*/
 .css{
     padding-top: 1rem;
@@ -95,9 +94,6 @@ main{
     height: auto;
     display: flex;
     flex-direction: column;
-}
-.css__header{
-    align-self: flex-start;
 }
 /*PHP*/
 .php{
@@ -108,9 +104,6 @@ main{
     display: flex;
     flex-direction: column;
 }
-.php__header{
-    align-self: flex-end;
-}
 /*Autres*/
 .autres{
     padding-top: 1rem;
@@ -120,17 +113,18 @@ main{
     display: flex;
     flex-direction: column;
 }
-.autres__header{
-    align-self: flex-start;
-}
-}   
-@media (min-width: 600px) /*Portrait Grand Smartphone/petite tablette*/ 
-{
-    
-}
 @media (min-width: 992px) /*laptop*/
 { 
-
+li{
+    text-align: left;
+    padding-left: 4rem;
+}
+p{
+    padding-left: 3rem;
+}
+.html__header, .css__header, .php__header, .autre__header{
+    letter-spacing: 1.5rem;
+}
 } 
 @media (min-width: 1200px) /*desktop*/
 {
