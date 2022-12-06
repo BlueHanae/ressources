@@ -119,6 +119,10 @@ li{
     text-align: left;
     padding-left: 4rem;
 }
+h2{
+    text-align: left;
+    padding-left: 6rem;
+}
 p{
     padding-left: 3rem;
 }
@@ -128,6 +132,17 @@ p{
 } 
 @media (min-width: 1200px) /*desktop*/
 {
-
+li{
+    padding-top: .5rem;
+}
+body{
+    font-size: 1.5rem;
+}
+h1{
+    font-size: 5rem;
+}
+h2{
+    font-size: 3rem;
+}
 }
 /* Dark Theme */
