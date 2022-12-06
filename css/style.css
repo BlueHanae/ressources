@@ -6,6 +6,16 @@ body{
     color: #f09f36;
 }
 /* coded mobile first, max 600px */
+#icon-theme{
+    padding: .2rem;
+    border: 1px solid black;
+    border-radius: .5rem;
+    position: absolute;
+    right: 1rem;
+    top: 1.25rem;
+    width: 2rem;
+    filter: invert(53%) sepia(12%) saturate(1619%) hue-rotate(195deg) brightness(94%) contrast(83%);
+}
 h1 {
     text-align: center;
     padding: 0 2rem;
@@ -22,8 +32,7 @@ a {
     text-decoration: none;
     border: 1px solid #ebad5d;
     border-radius: .5rem;
-    padding: .1rem;
-    margin: 1rem;
+    padding: .2rem .4rem;
 }
 a:hover {
     color: #f5d6ae;
@@ -145,4 +154,11 @@ h2{
     font-size: 3rem;
 }
 }
-/* Dark Theme */
+/* dark-theme */
+.dark{
+    background: #1b1b1b;
+}
+.dark a:hover{
+    color: #1b1b1b;
+    border: 1px solid #1b1b1b;
+}
